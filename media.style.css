@@ -1,0 +1,35 @@
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-content {
+    align-items: center;
+  }
+  .text-content h2 {
+    font-size: 32px;
+  }
+  .text-content p {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  nav {
+    padding: 30px;
+  }
+  nav ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .text-content .bt1,
+  .text-content .bt2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

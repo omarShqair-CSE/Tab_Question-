@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  margin-left: auto;
+  padding: 75px;
+}
+a .text {
+  margin-left: 10px;
+  display: inline-block;
+}
+nav ul li a:hover {
+  color: #d1884f;
+}
+nav ul li a:hover i {
+  color: #d1884f;
+}
+/* start content */
+.container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-content {
+  flex: 1.5;
+}
+.img-content {
+  flex: 1.5;
+}
+.text-content h4 {
+  color: #3bbadb;
+}
+.text-content h2 {
+  padding: 2rem 0;
+  font-size: 40px;
+  color: #008aaa;
+}
+.text-content h2 span {
+  color: #d1884f;
+}
+.text-content p {
+  margin-bottom: 2rem;
+  width: 80%;
+}
+#additional-text {
+  display: none;
+}
+#read-more-button {
+  color: #3bbadb;
+  cursor: pointer;
+}
+
+.text-content .bt1 {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  background-color: #008aaa;
+  color: white;
+  font-size: 20px;
+  border-radius: 10%;
+  transition: background-color 0.3s ease;
+}
+.text-content .bt2 {
+  font-size: 20px;
+  padding: 8px 16px;
+  background-color: white;
+  border: 2px solid #008aaa;
+  border-radius: 10%;
+  color: #008aaa;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+.text-content .bt2:hover {
+  background-color: #008aaa;
+  color: white;
+  cursor: pointer;
+}
+.text-content .bt1:hover {
+  cursor: pointer;
+  color: #008aaa;
+  background-color: white;
+  border: 2px solid #008aaa;
+}
+
+.img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 40%;
+  width: 60%;
+  height: 100%;
+  background-color: #3bbadb;
+  padding-left: 1.7%;
+}
+
+.img-content img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 40%;
+}
+.bt3 {
+  background-color: #fff;
+  color: #4caf50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.bt3:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
